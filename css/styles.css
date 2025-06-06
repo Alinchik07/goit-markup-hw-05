@@ -511,3 +511,113 @@ background-color: #31d0aa;
     max-width: 264px;
     color: #f4f4fd;
 }
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    position: fixed;
+    top: 0;
+}
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+}
+
+.modal-close {
+    background-color: #cecad1;
+    border: 1px solid #e7e9fc;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close-icon {
+    fill: #111111;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+.modal-field {
+    margin-bottom: 18px;
+}
+
+.modal-item {
+    width: 100%;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    color: teal;
+    font-weight: 700;
+    outline: transparent;
+}
+
+.modal-input {
+    height: 58px;
+    padding-left: 62px;
+}
+
+.modal-input:focus {
+    border-color: #fd9222;
+}
+
+.modal-input:focus+.modal-input-icon {
+    stroke: #fd9222;
+}
+
+.modal-item::placeholder {
+    font-weight: 400;
+    color: #2264fd;
+}
+
+.modal-input-text {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(64, 64, 64, 0.3);
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.modal-input-icon {
+    fill: transparent;
+    stroke: #111111;
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-input-cover {
+    position: relative;
+}
+
+.modal-textarea {
+    height: 137px;
+    resize: none;
+    padding: 8px 16px;
+}
