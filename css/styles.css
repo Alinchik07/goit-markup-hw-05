@@ -608,7 +608,7 @@ border: none;
 border-color: #4D5AE5;
 }
 
-.modal-input:focus+.modal-input-icon {
+.modal-input:focus + .modal-input-icon {
 border-color: #4D5AE5;
 }
 
@@ -655,4 +655,31 @@ border-color: #4D5AE5;
 
 .modal-textarea:focus {
     border-color: #4D5AE5;
+}
+
+.check-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.check-element {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+
+}
+
+.modal-check:checked+.check-text .check-element {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
