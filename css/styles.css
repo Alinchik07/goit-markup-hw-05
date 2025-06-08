@@ -554,11 +554,10 @@ color: #fff;
 
 .footer-form {
     display: flex;
-}
-
-.footer-email {
     gap: 24px;
 }
+
+
 
 .footer-input {
     width: 264px;
@@ -572,7 +571,6 @@ color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-    margin-right: 24px;
 }
 /* --------Modal---------- */
 
