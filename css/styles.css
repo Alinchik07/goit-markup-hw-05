@@ -470,25 +470,23 @@ transform: translate(0);
 }
 
 .footer-logo-text {
-margin-right: 120px;
+    margin-right: 120px;
 }
 
-.footer-social-container {
-
-}
+.footer-social-container {}
 
 .social-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#FFFFFF; 
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
 .footer-link:hover,
 .footer-link:focus {
-background-color: #31d0aa;
+    background-color: #31d0aa;
 }
 
 .footer-list {
@@ -532,6 +530,25 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
+}
+
+.footer-btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    color: #fff;
+}
+
+.footer-icon {
+    color: #fff;
 }
 /* --------Modal---------- */
 
